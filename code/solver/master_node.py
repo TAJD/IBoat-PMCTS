@@ -1,7 +1,7 @@
 import sys
 
 sys.path.append("../model/")
-from utils import Hist
+from solver.utils import Hist
 from simulatorTLKT import A_DICT, ACTIONS
 import numpy as np
 import matplotlib.pyplot as plt

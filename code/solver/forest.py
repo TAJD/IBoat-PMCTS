@@ -1,4 +1,4 @@
-import worker as mt
+import solver.worker as mt
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
@@ -329,4 +329,3 @@ def initialize_simulators(sims, ntra, stateinit, missionheading, plot=False):
         plt.legend()
 
     return [destination, timemin]
-

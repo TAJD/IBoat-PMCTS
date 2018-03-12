@@ -10,8 +10,8 @@ import math
 from math import exp, sqrt, asin, log
 import random as rand
 import numpy as np
-from utils import Hist
-from master_node import MasterNode
+from solver.utils import Hist
+from solver.master_node import MasterNode
 
 sys.path.append("../model/")
 import simulatorTLKT as SimC

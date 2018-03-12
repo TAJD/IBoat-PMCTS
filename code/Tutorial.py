@@ -7,11 +7,11 @@
 import os
 
 os.chdir(os.getcwd() + '/solver/')  # just to make sure you're working in the proper directory
-import forest as ft
+import solver.forest as ft
 from master_node import deepcopy_dict
 from master import MasterTree
 import time
-import worker
+import solver.worker as worker
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
